@@ -40,7 +40,7 @@ function displayProducts(items) {
     card.innerHTML = `
         <h3>${product.name}</h3>
         <p class="price">${product.price}</p>
-        <button>Add to Cart</button>
+        <button>Add to Wishlist</button>
       `;
     productGrid.appendChild(card);
   });
