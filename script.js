@@ -22,6 +22,8 @@ const products = [
   { id: 5, name: "Sticker Sheet", category: "Bags", price: "$10.00" },
 ];
 
+ß;
+
 const productGrid = document.getElementById("productGrid");
 const searchInput = document.getElementById("searchInput");
 const noResults = document.getElementById("noResults");
