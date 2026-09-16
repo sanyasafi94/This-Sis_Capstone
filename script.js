@@ -2,7 +2,7 @@
 const products = [
   {
     id: 1,
-    name: "Printed Cotton T+ote Bag",
+    name: "Printed Cotton Tote Bag",
     category: "Bags",
     price: "$22.00",
   },
@@ -40,7 +40,7 @@ function displayProducts(items) {
     card.innerHTML = `
         <h3>${product.name}</h3>
         <p class="price">${product.price}</p>
-        <button>Add to Wishlist</button>
+        <button>See Item</button>
       `;
     productGrid.appendChild(card);
   });
