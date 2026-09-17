@@ -2,7 +2,7 @@
 const products = [
   {
     id: 1,
-    name: "Printed Cotton T+ote Bag",
+    name: "Printed Cotton Tote Bag",
     category: "Bags",
     price: "$22.00",
   },
@@ -19,7 +19,7 @@ const products = [
     price: "$65.00",
   },
   { id: 4, name: "Amethyst Bracelet", category: "Jewelry", price: "$20.00" },
-  { id: 5, name: "Sticker Sheet", category: "Bags", price: "$10.00" },
+  { id: 5, name: "Sticker Sheet", category: "Stationary", price: "$10.00" },
 ];
 
 const productGrid = document.getElementById("productGrid");
@@ -40,7 +40,7 @@ function displayProducts(items) {
     card.innerHTML = `
       <h3>${product.name}</h3>
       <p class="price">${product.price}</p>
-      <button>Add to Cart</button>
+      <button>See item</button>
     `;
     productGrid.appendChild(card);
   });
