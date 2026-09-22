@@ -1,10 +1,11 @@
-// Example Products
+//Products
 const products = [
   {
     id: 1,
     name: "Printed Cotton Tote Bag",
     category: "Bags",
     price: "$22.00",
+    image: "images/handmade.jpg",
   },
   {
     id: 2,
@@ -23,6 +24,7 @@ const products = [
 ];
 
 const productGrid = document.getElementById("productGrid");
+const productImg = document.getElementById("productImg");
 const searchInput = document.getElementById("searchInput");
 const noResults = document.getElementById("noResults");
 
