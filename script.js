@@ -11,14 +11,14 @@ const products = [
   {
     id: 2,
     name: "Cup Cozy",
-    category: "Home, Cup, Cozy, Winter, Loop to Loop",
+    category: "Home, Cup, Cozy, Winter, Loop to Loop, crochet",
     price: "$5",
     image: "images/greencupcozy.jpeg",
   },
   {
     id: 3,
     name: "Large Tote Bag",
-    category: "Bag, tote, brown, Loop to Loop",
+    category: "Bag, tote, brown, Loop to Loop, crochet",
     price: "$45",
     image: "images/browncrochettote.jpeg",
   },
@@ -32,14 +32,14 @@ const products = [
   {
     id: 5,
     name: "Moon Keychain",
-    category: "Keychain, Loop to Loop, moon, yellow, small",
+    category: "Keychain, crochet,  Loop to Loop, moon, yellow, small",
     price: "$5",
     image: "images/moonkeychain.jpeg",
   },
   {
     id: 5,
     name: "Rose Bouquet Keychain",
-    category: "Keychain, Loop to Loop, rose, flower, medium",
+    category: "Keychain, Loop to Loop, rose, flower, medium, crochet",
     price: "$10",
     image: "images/rosebouquetkeychain.jpeg",
   },
@@ -62,7 +62,8 @@ function displayProducts(items) {
     const card = document.createElement("div");
     card.className = "product-card";
     card.innerHTML = `
-    <img src= ${product.image} alt=${product.name} width="300" height"400">
+    <img src= ${product.image} alt=${product.name} width="200" height"200
+    ">
       <h3>${product.name}</h3>
       <p class="price">${product.price}</p>
       <button>See item</button>
