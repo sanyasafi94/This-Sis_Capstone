@@ -7,7 +7,7 @@ list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: hsl(0, 0%, 88%);
+  background-color: #ec2ead;
 }
 
 .hero-image {
@@ -25,7 +25,7 @@ list-style-type: none;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    background-color: #ec2ead83;
+    background-color: #e22094;
   }
 
 

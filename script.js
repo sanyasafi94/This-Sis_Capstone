@@ -50,13 +50,13 @@ const productImg = document.getElementById("productImg");
 const searchInput = document.getElementById("searchInput");
 const noResults = document.getElementById("noResults");
 
-//Function for products
+/Function for products
 function displayProducts(items) {
   productGrid.innerHTML = "";
   if (items.length === 0) {
     noResults.classList.remove("hidden");
     return;
-  }
+  }*/
   noResults.classList.add("hidden");
   items.forEach((product) => {
     const card = document.createElement("div");
