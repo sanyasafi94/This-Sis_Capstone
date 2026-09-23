@@ -37,11 +37,54 @@ const products = [
     image: "images/moonkeychain.jpeg",
   },
   {
-    id: 5,
+    id: 6,
     name: "Rose Bouquet Keychain",
     category: "Keychain, Loop to Loop, rose, flower, medium, crochet",
     price: "$10",
     image: "images/rosebouquetkeychain.jpeg",
+  },
+  //Stardrip Couture Products
+  {
+    id: 7,
+    name: "Pink Peony Bracelet",
+    category: "Bracelet, Stardrip, beads, sparkle, jewelry, pink",
+    price: "$15",
+    image: "images/pinkpeony.jpg",
+  },
+  {
+    id: 8,
+    name: "Iridescent Strip Bracelet",
+    category: "Bracelet, Stardrip, beads, sparkle, jewelry, clear",
+    price: "$15",
+    image: "images/iridescent.jpg",
+  },
+  {
+    id: 9,
+    name: "Bubble Bracelet",
+    category: "Bracelet, Stardrip, beads, sparkle, jewelry, clear",
+    price: "$16",
+    image: "images/bubble.jpg",
+  },
+  {
+    id: 10,
+    name: "Rose Bouquet Keychain",
+    category: "Keychain, Loop to Loop, rose, flower, medium, crochet",
+    price: "$10",
+    image: "images/rosebouquetkeychain.jpeg",
+  },
+  {
+    id: 11,
+    name: "Summer Sky Bracelet/Anklet",
+    category: "Bracelet, Stardrip, beads, sparkle, jewelry, blue, anklet",
+    price: "$20",
+    image: "images/summersky.jpg",
+  },
+  {
+    id: 12,
+    name: "Dragonfly Butterfly",
+    category: "Bracelet, Stardrip, beads, sparkle, jewelry, multi color",
+    price: "$20",
+    image: "images/dragonfly.jpg",
   },
 ];
 
@@ -50,13 +93,13 @@ const productImg = document.getElementById("productImg");
 const searchInput = document.getElementById("searchInput");
 const noResults = document.getElementById("noResults");
 
-/Function for products
+//Function for products
 function displayProducts(items) {
   productGrid.innerHTML = "";
   if (items.length === 0) {
     noResults.classList.remove("hidden");
     return;
-  }*/
+  }
   noResults.classList.add("hidden");
   items.forEach((product) => {
     const card = document.createElement("div");
