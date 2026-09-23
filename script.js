@@ -40,6 +40,7 @@ function displayProducts(items) {
     const card = document.createElement("div");
     card.className = "product-card";
     card.innerHTML = `
+    <img src= ${product.image} alt=${product.name} width="500" height"600">
       <h3>${product.name}</h3>
       <p class="price">${product.price}</p>
       <button>See item</button>
