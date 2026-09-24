@@ -65,22 +65,16 @@ const products = [
     price: "$16",
     image: "images/bubble.jpg",
   },
+
   {
     id: 10,
-    name: "Rose Bouquet Keychain",
-    category: "Keychain, Loop to Loop, rose, flower, medium, crochet",
-    price: "$10",
-    image: "images/rosebouquetkeychain.jpeg",
-  },
-  {
-    id: 11,
     name: "Summer Sky Bracelet/Anklet",
     category: "Bracelet, Stardrip, beads, sparkle, jewelry, blue, anklet",
     price: "$20",
     image: "images/summersky.jpg",
   },
   {
-    id: 12,
+    id: 11,
     name: "Dragonfly Butterfly",
     category: "Bracelet, Stardrip, beads, sparkle, jewelry, multi color",
     price: "$20",
@@ -88,35 +82,35 @@ const products = [
   },
   //Roo's Treasure Shop
   {
-    id: 13,
+    id: 12,
     name: "Spice Jar Labels (set of 20)",
     category: "Stationary, Roo's Treasure Shop, labels, spice jars, ",
     price: "$20",
     image: "images/spicejar.png",
   },
   {
-    id: 14,
+    id: 13,
     name: "Ramadan Greeting Cards (Set of 3)",
     category: "Stationary, Roo's Treasure Shop, greeting cards, ramadan",
     price: "$20",
     image: "images/greetingcard.png",
   },
   {
-    id: 15,
+    id: 14,
     name: "Booked & Busy Bookmart Set (3pc)",
     category: "Stationary, Roo's Treasure Shop, Bookmark, book",
     price: "$15",
     image: "images/bookmarks.png",
   },
   {
-    id: 16,
+    id: 15,
     name: "All I Need is Matcha Magnet",
     category: "Stationary, Roo's Treasure Shop, magnet, matcha, pink",
     price: "$5",
     image: "images/matcha.png",
   },
   {
-    id: 17,
+    id: 16,
     name: "Bismillah Floral Can Glass Set",
     category: "Stationary, Roo's Treasure Shop, cup, glass, muslim",
     price: "$19",
@@ -128,6 +122,9 @@ const productGrid = document.getElementById("productGrid");
 const productImg = document.getElementById("productImg");
 const searchInput = document.getElementById("searchInput");
 const noResults = document.getElementById("noResults");
+const filteredProducts = products.filter((product) =>
+  product.category.includes("Loop to Loop")
+);
 
 //Function for products
 function displayProducts(items) {
