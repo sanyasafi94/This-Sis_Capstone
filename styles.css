@@ -158,3 +158,32 @@ input::placeholder {
     font-size: 14px;
     padding-bottom: 60px;
   }
+
+  /*Column */
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e22094;
+    color: white;
+    text-align: center;
+  }
