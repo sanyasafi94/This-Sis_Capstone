@@ -86,6 +86,42 @@ const products = [
     price: "$20",
     image: "images/dragonfly.jpg",
   },
+  //Roo's Treasure Shop
+  {
+    id: 13,
+    name: "Spice Jar Labels (set of 20)",
+    category: "Stationary, Roo's Treasure Shop, labels, spice jars, ",
+    price: "$20",
+    image: "images/spicejar.png",
+  },
+  {
+    id: 14,
+    name: "Ramadan Greeting Cards (Set of 3)",
+    category: "Stationary, Roo's Treasure Shop, greeting cards, ramadan",
+    price: "$20",
+    image: "images/greetingcard.png",
+  },
+  {
+    id: 15,
+    name: "Booked & Busy Bookmart Set (3pc)",
+    category: "Stationary, Roo's Treasure Shop, Bookmark, book",
+    price: "$15",
+    image: "images/bookmarks.png",
+  },
+  {
+    id: 16,
+    name: "All I Need is Matcha Magnet",
+    category: "Stationary, Roo's Treasure Shop, magnet, matcha, pink",
+    price: "$5",
+    image: "images/matcha.png",
+  },
+  {
+    id: 17,
+    name: "Bismillah Floral Can Glass Set",
+    category: "Stationary, Roo's Treasure Shop, cup, glass, muslim",
+    price: "$19",
+    image: "images/dragonfly.jpg",
+  },
 ];
 
 const productGrid = document.getElementById("productGrid");
