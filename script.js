@@ -123,6 +123,8 @@ const productImg = document.getElementById("productImg");
 const searchInput = document.getElementById("searchInput");
 const noResults = document.getElementById("noResults");
 
+const path = window.location.pathname;
+const page = path.split("/").pop();
 //Calling cerain items for certain pages
 const getProductsByPageName = (pageName) => {
   if (pageName === "looptoloop.html") {
@@ -143,6 +145,7 @@ const getProductsByPageName = (pageName) => {
     return products;
   }
 };
+displayProducts(getProductsByPageName(page));
 
 //Function for products
 function displayProducts(items) {
@@ -176,7 +179,4 @@ searchInput.addEventListener("input", (e) => {
   displayProducts(filteredProducts);
 });
 
-var path = window.location.pathname;
-var page = path.split("/").pop();
-console.log(page);
-displayProducts(getProductsByPageName(page));
+//displayProducts(getProductsByPageName(page));
