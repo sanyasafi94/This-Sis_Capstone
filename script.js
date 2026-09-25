@@ -124,7 +124,7 @@ const searchInput = document.getElementById("searchInput");
 const noResults = document.getElementById("noResults");
 
 //Calling cerain items for certain pages
-const getProductsByPageName = (pagename) => {
+const getProductsByPageName = (pageName) => {
   if (pageName === "looptoloop.html") {
     return products.filter((product) =>
       product.category.includes("Loop to Loop")
@@ -156,8 +156,7 @@ function displayProducts(items) {
     const card = document.createElement("div");
     card.className = "product-card";
     card.innerHTML = `
-    <img src= ${product.image} alt=${product.name} width="200" height"200
-    ">
+    <img src= ${product.image} alt=${product.name} width="200" height"200">
       <h3>${product.name}</h3>
       <p class="price">${product.price}</p>
       <button>See item</button>
