@@ -122,9 +122,27 @@ const productGrid = document.getElementById("productGrid");
 const productImg = document.getElementById("productImg");
 const searchInput = document.getElementById("searchInput");
 const noResults = document.getElementById("noResults");
-const filteredProducts = products.filter((product) =>
-  product.category.includes("Loop to Loop")
-);
+
+//Calling cerain items for certain pages
+const getProductsByPageName = (pagename) => {
+  if (pageName === "looptoloop.html") {
+    return products.filter((product) =>
+      product.category.includes("Loop to Loop")
+    );
+  } else if (pageName === "roostreasures.html") {
+    return products.filter((product) =>
+      product.category.includes("Roo's Treasure Shop")
+    );
+  } else if (pageName === "stardrip.html") {
+    return products.filter((product) => product.category.includes("Stardrip"));
+  } else if (pageName === "thewanderingmaker.html") {
+    return products.filter((product) =>
+      product.category.includes("Wandering Maker")
+    );
+  } else {
+    return products;
+  }
+};
 
 //Function for products
 function displayProducts(items) {
@@ -159,4 +177,7 @@ searchInput.addEventListener("input", (e) => {
   displayProducts(filteredProducts);
 });
 
-displayProducts(products);
+var path = window.location.pathname;
+var page = path.split("/").pop();
+console.log(page);
+displayProducts(getProductsByPageName(page));
