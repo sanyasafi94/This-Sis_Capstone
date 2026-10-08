@@ -7,6 +7,8 @@ const products = [
     category: "Wearable, crochet, rose, Loop to Loop",
     price: "$130 (Price adjusted for size)",
     image: "images/bluepinkrosesweater.jpeg",
+    description:
+      "This is a beautiful cardigan that showcases roses all over the front and back. Made with cotton yarn, it has a gorgeous and clean look. This is the perfect addition to your wardrobe especially if you love flowers.",
   },
   {
     id: 2,
@@ -125,6 +127,7 @@ const noResults = document.getElementById("noResults");
 
 const path = window.location.pathname;
 const page = path.split("/").pop();
+
 //Calling cerain items for certain pages
 const getProductsByPageName = (pageName) => {
   if (pageName === "looptoloop.html") {
@@ -162,7 +165,7 @@ function displayProducts(items) {
     <img src= ${product.image} alt=${product.name} width="200" height"200">
       <h3>${product.name}</h3>
       <p class="price">${product.price}</p>
-      <button>See item</button>
+      <button id="openModal">See item</button>
     `;
     productGrid.appendChild(card);
   });
