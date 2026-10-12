@@ -29,19 +29,40 @@
       <a href="#questions" class="split">FAQs</a>
     </div>
 
-    <div class="row">
-      <div class="column1">
-        <img src="images/#" alt="Loop to Loop Logo" width="200" />
+    <main>
+      <div class="row">
+        <div class="column1">
+          <img src="images/" alt="The Wandering Maker" width="200" />
+        </div>
+        <input type="text" id="searchInput" placeholder="Search products..." />
+        <div class="column2">
+          <section id="featured">
+            <div id="productGrid" class="product-grid"></div>
+            <img id="productImg" src="images/" alt="" />
+            <p id="noResults" class="hidden"></p>
+          </section>
+        </div>
       </div>
 
-      <div class="column2">
-        <section id="featured">
-          <div id="productGrid" class="product-grid"></div>
-          <img id="productImg" src="images/" alt="">
-          <p id="noResults" class="hidden"></p>
-          
-        </section>
+      <!-- Modal structure -->
+      <div id="productModal" class="modal hidden">
+        <div class="modal-content">
+          <button class="close-btn" id="closeModal">&times;</button>
+          <div class="modal-body">
+            <img id="modalImage" src="" alt="" />
+            <div class="modal-details">
+              <h2 id="modalTitle"></h2>
+              <p class="modal-category" id="modalCategory"></p>
+              <p class="modal-price" id="modalPrice"></p>
+              <p class="modal-description" id="modalDescription"></p>
+              <a id="contactCreatorBtn" class="contact-btn" href="#"
+                >Contact Creator</a
+              >
+            </div>
+          </div>
+        </div>
       </div>
+    </main>
 
     <script src="script.js"></script>
   </body>
