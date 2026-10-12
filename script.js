@@ -125,6 +125,15 @@ const productImg = document.getElementById("productImg");
 const searchInput = document.getElementById("searchInput");
 const noResults = document.getElementById("noResults");
 
+const modal = document.getElementById("productModal");
+const closeModalBtn = document.getElementById("closeModal");
+const modalImage = document.getElementById("modalImage");
+const modalTitle = document.getElementById("modalTitle");
+const modalCategory = document.getElementById("modalCategory");
+const modalPrice = document.getElementById("modalPrice");
+const modalDescription = document.getElementById("modalDescription");
+const contactCreatorBtn = document.getElementById("contactCreatorBtn");
+
 const path = window.location.pathname;
 const page = path.split("/").pop();
 

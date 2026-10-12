@@ -159,33 +159,27 @@ input::placeholder {
     padding-bottom: 60px;
   }
 
-  /*Column 
+  /*Modal*/
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.modal.hidden {
+  display: none;
+}
 
-  .column {
-    float: left;
-    width: 50%;
-  }
+.modal-content {
   
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .row {
-    display: flex;
-  }
+}
   
-  .column {
-    flex: 50%;
-  }
-
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    position: absolute;
-    bottom: 0;
-  }*/
   footer {
     position:relative;
    bottom:0;
