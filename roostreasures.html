@@ -28,22 +28,45 @@
       <a href="index.html" class="center">This & Sis</a>
       <a href="#questions" class="split">FAQs</a>
     </div>
-
-    <div class="row">
-      <div class="column1">
-        <img src="images/roologo.png" alt="Roo's Treasure Shop Logo" width="200" />
+    <main>
+      <div class="row">
+        <div class="column1">
+          <img
+            src="images/roologo.png"
+            alt="Roo's Treasures Shop Logo"
+            width="200"
+          />
+        </div>
+        <input type="text" id="searchInput" placeholder="Search products..." />
+        <div class="column2">
+          <section id="featured">
+            <div id="productGrid" class="product-grid"></div>
+            <img id="productImg" src="images/" alt="" />
+            <p id="noResults" class="hidden"></p>
+          </section>
+        </div>
       </div>
 
-      <div class="column2">
-        <section id="featured">
-          <div id="productGrid" class="product-grid"></div>
-          <img id="productImg" src="images/" alt="">
-          <p id="noResults" class="hidden"></p>
-          
-        </section>
+      <!-- Modal structure -->
+      <div id="productModal" class="modal hidden">
+        <div class="modal-content">
+          <button class="close-btn" id="closeModal">&times;</button>
+          <div class="modal-body">
+            <img id="modalImage" src="" alt="" />
+            <div class="modal-details">
+              <h2 id="modalTitle"></h2>
+              <p class="modal-category" id="modalCategory"></p>
+              <p class="modal-price" id="modalPrice"></p>
+              <p class="modal-description" id="modalDescription"></p>
+              <a id="contactCreatorBtn" class="contact-btn" href="#"
+                >Contact Creator</a
+              >
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div class="container">
+    </main>
+    <!--   <div class="container">
         <form action="/action_page.php">
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -58,8 +81,7 @@
       
           <input type="submit" value="Submit">
         </form>
-      </div>
-      
+      </div>-->
 
     <script src="script.js"></script>
   </body>

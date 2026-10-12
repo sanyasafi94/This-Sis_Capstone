@@ -116,7 +116,7 @@ const products = [
     name: "Bismillah Floral Can Glass Set",
     category: "Stationary, Roo's Treasure Shop, cup, glass, muslim",
     price: "$19",
-    image: "images/dragonfly.jpg",
+    image: "images/jarcup.png",
   },
 ];
 
