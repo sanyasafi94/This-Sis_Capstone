@@ -180,6 +180,33 @@ function displayProducts(items) {
   });
 }
 
+function openModal(product) {
+  if (!modal) return;
+  modalImage.src = product.image;
+  modalImage.alt = product.name;
+  modalTitle.textContent = product.name;
+  if (modalCategory) modalCategory.textContent = product.category;
+  modalPrice.textContent = product.price;
+  modalDescription.textContent =
+    product.description || "No description available for this product.";
+  if (contactCreatorBtn) {
+    contactCreatorBtn.href = `contact.html?product=${product.id}`;
+  }
+  modal.classList.remove("hidden");
+}
+
+if (closeModalBtn) {
+  closeModalBtn.addEventListener("click", () => {
+    modal.classList.add("hidden");
+  });
+}
+
+window.addEventListener("click", (e) => {
+  if (e.target === modal) {
+    modal.classList.add("hidden");
+  }
+});
+
 //Event Listener
 searchInput.addEventListener("input", (e) => {
   const searchItem = e.target.value.toLowerCase().trim();
@@ -191,4 +218,4 @@ searchInput.addEventListener("input", (e) => {
   displayProducts(filteredProducts);
 });
 
-//displayProducts(getProductsByPageName(page));
+displayProducts(getProductsByPageName(page));
