@@ -121,7 +121,6 @@ const products = [
 ];
 
 const productGrid = document.getElementById("productGrid");
-const productImg = document.getElementById("productImg");
 const searchInput = document.getElementById("searchInput");
 const noResults = document.getElementById("noResults");
 
@@ -137,7 +136,7 @@ const contactCreatorBtn = document.getElementById("contactCreatorBtn");
 const path = window.location.pathname;
 const page = path.split("/").pop();
 
-//Calling cerain items for certain pages
+//Calling certain items for certain pages
 const getProductsByPageName = (pageName) => {
   if (pageName === "looptoloop.html") {
     return products.filter((product) =>
@@ -157,7 +156,6 @@ const getProductsByPageName = (pageName) => {
     return products;
   }
 };
-displayProducts(getProductsByPageName(page));
 
 //Function for products
 function displayProducts(items) {
@@ -174,8 +172,11 @@ function displayProducts(items) {
     <img src= ${product.image} alt=${product.name} width="200" height"200">
       <h3>${product.name}</h3>
       <p class="price">${product.price}</p>
-      <button id="openModal">See item</button>
+      <button class="see-item-btn" data-id="${product.id}">See item</button>
     `;
+    const button = card.querySelector(".see-item-btn");
+    button.addEventListener("click", () => openModal(product));
+
     productGrid.appendChild(card);
   });
 }
@@ -188,13 +189,15 @@ function openModal(product) {
   if (modalCategory) modalCategory.textContent = product.category;
   modalPrice.textContent = product.price;
   modalDescription.textContent =
-    product.description || "No description available for this product.";
+    product.description || "No description available for this item.";
   if (contactCreatorBtn) {
     contactCreatorBtn.href = `contact.html?product=${product.id}`;
   }
+
   modal.classList.remove("hidden");
 }
 
+// Close Modal logic
 if (closeModalBtn) {
   closeModalBtn.addEventListener("click", () => {
     modal.classList.add("hidden");

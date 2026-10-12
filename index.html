@@ -25,16 +25,19 @@
       </div>
       <a href="#crafts">Crafts</a>
       <a href="#about">About</a>
-      <a  href="index.html" class="center">This & Sis</a>
+      <a href="index.html" class="center">This & Sis</a>
       <a href="#questions" class="split">FAQs</a>
     </div>
 
     <header>
-        <img src="images/handmade.jpg" alt="handmade store front"  class="hero-image" />
-        <div class="hero-text">
-          <h1>The Beauty of Handmade</h1>
-          <p>Items made from the heart, just for you</p>
-        </div>
+      <img
+        src="images/handmade.jpg"
+        alt="handmade store front"
+        class="hero-image"
+      />
+      <div class="hero-text">
+        <h1>The Beauty of Handmade</h1>
+        <p>Items made from the heart, just for you</p>
       </div>
     </header>
     <main>
@@ -47,22 +50,22 @@
           <i class="material-icons">gesture</i>
           <p>Crochet</p>
         </div>
-      
+
         <div class="item">
           <i class="material-icons">palette</i>
           <p>Traditional</p>
         </div>
-      
+
         <div class="item">
           <i class="material-icons">drafts</i>
           <p>Stationary</p>
         </div>
-      
+
         <div class="item">
           <i class="material-icons">diamond</i>
           <p>Jewelry</p>
         </div>
-      
+
         <div class="item">
           <i class="material-icons">circle</i>
           <p>Ceramic/Eco Resin</p>
@@ -74,23 +77,22 @@
         <img id="productImg" src="images/" alt="">
         <p id="noResults" class="hidden"></p>
         
-        <!--Modal-->
-      <div id="printModal" class="modal hidden">
-        <div class="modal-content">
-          <button class="close-btn" id="closeModal">&times;</button>
-          <div class="modal-body">
-            <img id="modalImage" src="" alt=""/>
-            <div class="modal-details">
-              <h2 id="modalTitle"></h2>
-              <p class="modal-category" id="modalCategory"></p>
-              <p class="modal-price" id="modalPrice"></p>
-              <p class="modal-description" id="modalDescription"></p>
-              <a id="contactCreatorBtn" class="contact-btn" href="#"> Contact Creator</a>
-            </div>
-          </div>
-        </div>
+     <!-- Modal structure -->
+<div id="productModal" class="modal hidden">
+  <div class="modal-content">
+    <button class="close-btn" id="closeModal">&times;</button>
+    <div class="modal-body">
+      <img id="modalImage" src="" alt="" />
+      <div class="modal-details">
+        <h2 id="modalTitle"></h2>
+        <p class="modal-category" id="modalCategory"></p>
+        <p class="modal-price" id="modalPrice"></p>
+        <p class="modal-description" id="modalDescription"></p>
+        <a id="contactCreatorBtn" class="contact-btn" href="#">Contact Creator</a>
       </div>
-     
+    </div>
+  </div>
+</div>
 
     </main>
     <script src="script.js"></script>
