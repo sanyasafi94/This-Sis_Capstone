@@ -1,7 +1,7 @@
 *{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Alexandria', sans-serif;
 }
-
+/*Top Navigation*/
 .topnav{
 list-style-type: none;
   margin: 0;
@@ -9,7 +9,7 @@ list-style-type: none;
   overflow: hidden;
   background-color:white;
 }
-
+/*Hero Section*/
 .hero-image {
     max-width: 100%; 
     max-height: 600px; 
@@ -28,7 +28,7 @@ list-style-type: none;
     background-color: #e22094;
   }
 
-
+/*Search Container*/
 .search-container{
     display: flex;
     justify-content: center; 
@@ -221,6 +221,8 @@ input::placeholder {
   color: #ec2ead;
   margin: .5rem 0;
 }
+
+/*Footer*/
   
   footer {
     position:relative;
