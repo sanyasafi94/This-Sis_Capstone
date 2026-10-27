@@ -19,8 +19,7 @@ box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 width: 100%;
 }
 
-x;
-}
+
  .topnav-left{
   display: flex;
   align-items: center;
@@ -41,7 +40,7 @@ x;
  .topnav a {
   text-decoration: none;
   color: rgb(245, 85, 149);
-  font-size: 15p
+  font-size: 15px;
  }
 
  .center{
@@ -277,9 +276,16 @@ input::placeholder {
 /*Footer*/
   
   footer {
-    position:relative;
-   bottom:0;
    width:100%;
-   height:60px; /* Height of the footer */
-   background:#ec2ead;
+   background:white;
+   text-align: center;
+   padding: 20px;
+   margin-top: 40px;
   }
+  .mainlogofooter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  object-fit: contain;
+}
