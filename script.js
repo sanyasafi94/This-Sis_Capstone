@@ -153,7 +153,7 @@ const products = [
     name: "Bedazzled Initial Keychain",
     category: "Wandering Maker, bedazzled, keychain, intial, letter ",
     price: "$8",
-    image: "images/letterkeychains.jpeg",
+    image: "images/letterkeychains.jpg",
   },
 ];
 
