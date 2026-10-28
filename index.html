@@ -13,32 +13,31 @@
     />
   </head>
   <body>
-    
     <div class="topnav">
       <!-- Left Side of Logo-->
       <div class="topnav-left">
-      <div class="dropdown">
-        <button class="creators">Creators</button>
-        <div class="dropdown-creators">
-          <a href="looptoloop.html">Loop to Loop</a>
-          <a href="roostreasures.html">Roo's Treasures Shop</a>
-          <a href="thewanderingmaker.html">The Wandering Maker</a>
-          <a href="stardrip.html">Stardrip Couture</a>
+        <div class="dropdown">
+          <button class="creators">Creators</button>
+          <div class="dropdown-creators">
+            <a href="looptoloop.html">Loop to Loop</a>
+            <a href="roostreasures.html">Roo's Treasures Shop</a>
+            <a href="thewanderingmaker.html">The Wandering Maker</a>
+            <a href="stardrip.html">Stardrip Couture</a>
+          </div>
+        </div>
+        <a href="#crafts" class="crafts">Crafts</a>
+        <a href="about.html" class="about">About</a>
+        <!-- Centered Logo-->
+        <a href="index.html" class="center">
+          <img src="images/Main Logo.jpg" alt="Main Logo" class="mainlogo" />
+        </a>
+        <!-- Right Side of Logo-->
+        <div class="topnav-right">
+          <a href="#questions" class="faq">FAQs</a>
+          <a href="contact.html" class="contact">Contact</a>
         </div>
       </div>
-      <a href="#crafts" class="crafts">Crafts</a>
-      <a href="about.html" class="about">About</a>
-<!-- Centered Logo-->
-      <a href="index.html" class="center">
-        <img src="images/Main Logo.jpg" alt="Main Logo" class="mainlogo">
-      </a>
-<!-- Right Side of Logo-->
-      <div class="topnav-right">
-      <a href="#questions" class="faq">FAQs</a>
-      <a href="contact.html" class="contact">Contact</a>
     </div>
-    </div>
-  </div>
     <header>
       <img
         src="images/handmade.jpg"
@@ -57,76 +56,105 @@
 
       <div class="icon-nav">
         <div class="item">
-        <img src="images/yarnicon.jpg" alt="" width="30px">
+          <img src="images/yarnicon.jpg" alt="" width="30px" />
           <p>Crochet</p>
         </div>
 
         <div class="item">
-         <img src="images/painticon.jpg" alt="" width="30px">
+          <img src="images/painticon.jpg" alt="" width="30px" />
           <p>Traditional</p>
         </div>
 
         <div class="item">
-         <img src="images/stationaryicon.jpg" alt="" width="30px">
+          <img src="images/stationaryicon.jpg" alt="" width="30px" />
           <p>Stationary</p>
         </div>
 
         <div class="item">
-          <img src="images/ringicon.jpg" alt="Ring Icon" width="30px">
+          <img src="images/ringicon.jpg" alt="Ring Icon" width="30px" />
           <p>Jewelry</p>
         </div>
 
         <div class="item">
-          <img src="images/resinicon.jpg" alt="Eco Resing Icon" width="30px">
+          <img src="images/resinicon.jpg" alt="Eco Resing Icon" width="30px" />
           <p>Ceramic/Eco Resin</p>
         </div>
       </div>
+      <!-- Filtered Items-->
+      <section>
+        <h1>Crochet</h1>
+        <div id="crochetGrid" class="product-grid"></div>
+      </section>
 
+      <section>
+        <h1>Stationary</h1>
+        <div id="stationaryGrid" class="product-grid"></div>
+      </section>
 
-<section>
-  <h1>Crochet</h1>
-  <div id="crochetGrid" class="product-grid"></div>
-</section>
+      <section>
+        <h1>Jewelry</h1>
+        <div id="jewelryGrid" class="product-grid"></div>
+      </section>
 
-<section>
-  <h1>Stationary</h1>
-  <div id="stationaryGrid" class="product-grid"></div>
-</section>
+      <!-- Store Names-->
+      <section class="store-names">
+        <div class="looptoloop">
+          <img src="images/looplogo.png" alt="Loop to Loop Logo" width="300" />
+          <h3>Loop to Loop</h3>
+        </div>
 
-<section>
-  <h1>Jewelry</h1>
-  <div id="jewelryGrid" class="product-grid"></div>
-</section>
-      
+        <div class="roostreasures">
+          <img
+            src="images/roologo.png"
+            alt="Roo's Treasure Shop Logo"
+            width="300"
+          />
+          <h3>Roo's Treasure Shop</h3>
+        </div>
 
-      <section id="featured">
-        <div id="productGrid" class="product-grid"></div>
-        <img id="productImg" src="images/" alt="">
-        <p id="noResults" class="hidden"></p>
-        
-     <!-- Modal structure -->
-<div id="productModal" class="modal hidden">
-  <div class="modal-content">
-    <button class="close-btn" id="closeModal">&times;</button>
-    <div class="modal-body">
-      <img id="modalImage" src="" alt="" />
-      <div class="modal-details">
-        <h2 id="modalTitle"></h2>
-        <p class="modal-category" id="modalCategory"></p>
-        <p class="modal-price" id="modalPrice"></p>
-        <p class="modal-description" id="modalDescription"></p>
-        <a id="contactCreatorBtn" class="contact-btn" href="#">Contact Creator</a>
+        <div class="stardrip">
+          <img
+            src="images/stardrip.jpeg"
+            alt="StarDrip Couture Logo"
+            width="300"
+          />
+          <h3>StarDrip Couture</h3>
+        </div>
+
+        <div class="The Wandering Maker">
+          <img
+            src="images/wanderinglogo.jpg"
+            alt="The Wandering Maker Logo"
+            width="300"
+          />
+          <h3>The Wandering Maker</h3>
+        </div>
+      </section>
+
+      <!-- Modal structure -->
+      <div id="productModal" class="modal hidden">
+        <div class="modal-content">
+          <button class="close-btn" id="closeModal">&times;</button>
+          <div class="modal-body">
+            <img id="modalImage" src="" alt="" />
+            <div class="modal-details">
+              <h2 id="modalTitle"></h2>
+              <p class="modal-category" id="modalCategory"></p>
+              <p class="modal-price" id="modalPrice"></p>
+              <p class="modal-description" id="modalDescription"></p>
+              <a id="contactCreatorBtn" class="contact-btn" href="#"
+                >Contact Creator</a
+              >
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
-
     </main>
     <script src="script.js"></script>
   </body>
   <footer>
     <p>
-      <img src="images/Main Logo.jpg" alt="Logo" class="mainlogofooter"><br />
+      <img src="images/Main Logo.jpg" alt="Logo" class="mainlogofooter" /><br />
       <a href="looptoloop.html">Loop to Loop</a>
       <a href="roostreasures.html">Roos's Treasures Shop</a>
       <a href="thewanderingmaker.html">The Wandering Maker</a>
