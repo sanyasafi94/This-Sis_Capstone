@@ -111,6 +111,7 @@ button:active{
   /*Hero Section*/
 
 header {
+  position: relative;
   margin: 0;
   padding: 0;
   line-height: 0;
@@ -128,13 +129,22 @@ header {
   width: 100%;
 }
   .hero-text {
-    text-align: center;
-    color: white;
-    background-color: #e22094;
-    padding: 20px;
-    font-size: 1.5rem;
-    letter-spacing: 1px;
-    font-weight: bold;
+position: absolute;
+bottom: 30px;
+left: 50%;
+transform: translateX(-90%);
+width: 100%;
+max-width: 900px;
+text-align: center;
+color: white;
+background-color: rgba(226, 32, 148, 0.85);
+padding: 20px;
+border-radius: 50px;
+font-size: 1.5rem;
+letter-spacing: 1px;
+font-weight: bold;
+line-height: normal;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
 
 /*Search Container*/
