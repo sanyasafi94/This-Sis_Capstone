@@ -118,6 +118,10 @@ const products = [
     price: "$19",
     image: "images/jarcup.png",
   },
+
+  //The Wandering Maker
+
+  //Geekaabi vs the World
 ];
 
 const productGrid = document.getElementById("productGrid");
@@ -152,6 +156,8 @@ const getProductsByPageName = (pageName) => {
     return products.filter((product) =>
       product.category.includes("Wandering Maker")
     );
+  } else if (pageName === "geekaabi.html") {
+    return products.filter((product) => product.category.includes("Geekaabi"));
   } else {
     return products;
   }
