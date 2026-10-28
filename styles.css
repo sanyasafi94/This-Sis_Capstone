@@ -10,7 +10,7 @@ body{
 /*Top Navigation*/
 .topnav {
 display: grid;
-grid-template-columns: 1fr auto 1fr;
+grid-template-columns: 3fr auto 1fr;
 align-items: center;
 margin: 0;
 padding: 0px 0;
