@@ -120,8 +120,41 @@ const products = [
   },
 
   //The Wandering Maker
-
-  //Geekaabi vs the World
+  {
+    id: 17,
+    name: "Bedazzled Cat Keychain",
+    category: "Wandering Maker, keychain, bedazzled, pink, purple",
+    price: "$6",
+    image: "images/catkeychains.jpeg",
+  },
+  {
+    id: 18,
+    name: "Rose Pin",
+    category: "Wandering Maker, rose, pin, red, flower",
+    price: "$3 each",
+    image: "images/rosepin.jpeg",
+  },
+  {
+    id: 19,
+    name: "Fruit Earrings Set",
+    category: "Wandering Maker, earring, jewelry, fruit, tops",
+    price: "$10",
+    image: "images/fruitset.jpeg",
+  },
+  {
+    id: 20,
+    name: "Pressed Flower Magnet Set",
+    category: "Wandering Maker, magent, flower, frame, vintage",
+    price: "$5",
+    image: "images/frames.jpeg",
+  },
+  {
+    id: 21,
+    name: "Bedazzled Initial Keychain",
+    category: "Wandering Maker, bedazzled, keychain, intial, letter ",
+    price: "$8",
+    image: "images/initial.png",
+  },
 ];
 
 const productGrid = document.getElementById("productGrid");
