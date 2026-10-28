@@ -136,9 +136,83 @@ const modalCategory = document.getElementById("modalCategory");
 const modalPrice = document.getElementById("modalPrice");
 const modalDescription = document.getElementById("modalDescription");
 const contactCreatorBtn = document.getElementById("contactCreatorBtn");
+//Crochet Filter for Homepage
+const crochetProducts = products.filter((product) =>
+  product.category.toLowerCase().includes("crochet")
+);
+const crochetGrid = document.getElementById("crochetGrid");
+
+//Stationary Filter for Homepage
+const stationaryProducts = products.filter((product) =>
+  product.category.toLowerCase().includes("stationary")
+);
+const stationaryGrid = document.getElementById("stationaryGrid");
+
+//Stationary Filter for Homepage
+const jewelryProducts = products.filter((product) =>
+  product.category.toLowerCase().includes("jewelry")
+);
+const jewelryGrid = document.getElementById("jewelryGrid");
 
 const path = window.location.pathname;
 const page = path.split("/").pop();
+
+if (crochetGrid) {
+  crochetProducts.forEach((product) => {
+    const card = document.createElement("div");
+    card.className = "prodcut-card";
+    card.innerHTML = `
+      <img src="${product.image}" alt="${product.name}" width="200" height="200">
+      <h3>${product.name}</h3>
+      <p class="price">${product.price}</p>
+      <button class="see-item-btn" data-id="${product.id}">See item</button>
+    `;
+
+    card
+      .querySelector(".see-item-btn")
+      .addEventListener("click", () => openModal(product));
+
+    crochetGrid.appendChild(card);
+  });
+}
+
+if (stationaryGrid) {
+  stationaryProducts.forEach((product) => {
+    const card = document.createElement("div");
+    card.className = "product-card";
+    card.innerHTML = `
+      <img src="${product.image}" alt="${product.name}" width="200" height="200">
+      <h3>${product.name}</h3>
+      <p class="price">${product.price}</p>
+      <button class="see-item-btn" data-id="${product.id}">See item</button>
+    `;
+
+    card
+      .querySelector(".see-item-btn")
+      .addEventListener("click", () => openModal(product));
+
+    stationaryGrid.appendChild(card);
+  });
+}
+
+if (jewelryGrid) {
+  jewelryProducts.forEach((product) => {
+    const card = document.createElement("div");
+    card.className = "product-card";
+    card.innerHTML = `
+      <img src="${product.image}" alt="${product.name}" width="200" height="200">
+      <h3>${product.name}</h3>
+      <p class="price">${product.price}</p>
+      <button class="see-item-btn" data-id="${product.id}">See item</button>
+    `;
+
+    card
+      .querySelector(".see-item-btn")
+      .addEventListener("click", () => openModal(product));
+
+    jewelryGrid.appendChild(card);
+  });
+}
 
 //Calling certain items for certain pages
 const getProductsByPageName = (pageName) => {
