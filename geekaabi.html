@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This & Sis</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="topnav">
+      <!-- Left Side of Logo-->
+      <div class="topnav-left">
+        <div class="dropdown">
+          <button class="creators">Creators</button>
+          <div class="dropdown-creators">
+            <a href="looptoloop.html">Loop to Loop</a>
+            <a href="roostreasures.html">Roo's Treasures Shop</a>
+            <a href="thewanderingmaker.html">The Wandering Maker</a>
+            <a href="stardrip.html">Stardrip Couture</a>
+          </div>
+        </div>
+        <a href="#crafts" class="crafts">Crafts</a>
+        <a href="about.html" class="about">About</a>
+        <!-- Centered Logo-->
+        <a href="index.html" class="center">
+          <img src="images/Main Logo.jpg" alt="Main Logo" class="mainlogo" />
+        </a>
+        <!-- Right Side of Logo-->
+        <div class="topnav-right">
+          <a href="#questions" class="faq">FAQs</a>
+          <a href="contact.html" class="contact">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <div class="row">
+        <div class="column1">
+          <img src="images/#" alt="Geekaabi Vs. the World" width="200" />
+        </div>
+        <input type="text" id="searchInput" placeholder="Search products..." />
+        <div class="column2">
+          <section id="featured">
+            <div id="productGrid" class="product-grid"></div>
+            <img id="productImg" src="images/" alt="" />
+            <p id="noResults" class="hidden"></p>
+          </section>
+        </div>
+      </div>
+
+      <!-- Modal structure -->
+      <div id="productModal" class="modal hidden">
+        <div class="modal-content">
+          <button class="close-btn" id="closeModal">&times;</button>
+          <div class="modal-body">
+            <img id="modalImage" src="" alt="" />
+            <div class="modal-details">
+              <h2 id="modalTitle"></h2>
+              <p class="modal-category" id="modalCategory"></p>
+              <p class="modal-price" id="modalPrice"></p>
+              <p class="modal-description" id="modalDescription"></p>
+              <a id="contactCreatorBtn" class="contact-btn" href="#"
+                >Contact Creator</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        <img
+          src="images/Main Logo.jpg"
+          alt="Logo"
+          class="mainlogofooter"
+        /><br />
+        <a href="looptoloop.html">Loop to Loop</a>
+        <a href="roostreasures.html">Roos's Treasures Shop</a>
+        <a href="thewanderingmaker.html">The Wandering Maker</a>
+        <a href="stardrip.html">Stardrip Couture</a>
+        <a href="geekaabi.html">Geekaabi vs the World</a><br />
+        <a href="contact.html">Contact</a>
+        <a href="faq.html">FAQs</a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
