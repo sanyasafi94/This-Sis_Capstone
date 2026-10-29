@@ -193,7 +193,7 @@ const page = path.split("/").pop();
 if (crochetGrid) {
   crochetProducts.forEach((product) => {
     const card = document.createElement("div");
-    card.className = "prodcut-card";
+    card.className = "product-card";
     card.innerHTML = `
       <img src="${product.image}" alt="${product.name}" width="200" height="200">
       <h3>${product.name}</h3>
