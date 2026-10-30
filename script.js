@@ -268,8 +268,6 @@ const getProductsByPageName = (pageName) => {
   }
 };
 
-displayProducts(getProductsByPageName(page));
-
 //Function for products
 function displayProducts(items) {
   productGrid.innerHTML = "";
@@ -309,10 +307,9 @@ function openModal(product) {
   modal.classList.remove("hidden");
 }
 
-// Close Modal logic
 if (closeModalBtn) {
   closeModalBtn.addEventListener("click", () => {
-    modal.classList.add("hidden");
+    if (modal) modal.classList.add("hidden");
   });
 }
 
@@ -321,6 +318,8 @@ window.addEventListener("click", (e) => {
     modal.classList.add("hidden");
   }
 });
+
+displayProducts(getProductsByPageName(page));
 
 //Event Listener
 searchInput.addEventListener("input", (e) => {
