@@ -36,23 +36,18 @@
         </div>
       </div>
     </div>
+
     <main>
-      <div class="row">
-        <div class="column1">
-          <img
-            src="images/roologo.png"
-            alt="Roo's Treasures Shop Logo"
-            width="200"
-          />
-        </div>
-        <input type="text" id="searchInput" placeholder="Search products..." />
-        <div class="column2">
-          <section id="featured">
-            <div id="productGrid" class="product-grid"></div>
+      <div class="logo-page">
+          <img src="images/roologo.png" alt="Roo's Treasure Shop Logo" width="250px" class="logo-image" />
+        <input class="logo-page-search" id="searchInput" placeholder="Search products..." />
+      </div>   
+        <section id="featured">
+            <div id="productGrid" class="product-grid store-grid"></div>
             <img id="productImg" src="images/" alt="" />
             <p id="noResults" class="hidden"></p>
           </section>
-        </div>
+       
       </div>
 
       <!-- Modal structure -->
@@ -74,22 +69,8 @@
         </div>
       </div>
     </main>
-    <!--   <div class="container">
-        <form action="/action_page.php">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      
-          <label for="country">Country</label>
-      
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-        </form>
-      </div>-->
+
+   
 
     <script src="script.js"></script>
   </body>
