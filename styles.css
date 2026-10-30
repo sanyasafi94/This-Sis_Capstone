@@ -332,8 +332,12 @@ scroll-behavior: smooth;
 
 .modal-body {
   display: flex;
-  flex-direction: column;
-  gap: 1 rem;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+;
+color: #151f6d;
 }
 
 .modal-body img {

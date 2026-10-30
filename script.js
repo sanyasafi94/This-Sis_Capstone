@@ -299,7 +299,6 @@ function openModal(product) {
   modalImage.src = product.image;
   modalImage.alt = product.name;
   modalTitle.textContent = product.name;
-  if (modalCategory) modalCategory.textContent = product.category;
   modalPrice.textContent = product.price;
   modalDescription.textContent =
     product.description || "No description available for this item.";
