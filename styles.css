@@ -359,7 +359,7 @@ scroll-behavior: smooth;
   
   footer {
    width:100%;
-   background:white;
+   background: rgb(247, 211, 223);
    text-align: center;
    padding: 20px;
    margin-top: 40px;
@@ -382,8 +382,8 @@ scroll-behavior: smooth;
 
 footer a {
   text-decoration: none;
-  color: #e22094;
-  font-size: 14px;
+  color: #151f6d;
+  font-size: 20px;
 }
 
 footer a:hover {
