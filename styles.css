@@ -117,11 +117,15 @@ header {
   line-height: 0;
 }
 .hero-main {
-  font-family: ;
+  font-family: fino, serif;
+font-weight: 700;
+font-style: normal;
+font-size: 60px;
+padding-left: 60px;
 }
 .hero-image {
     width: 100%;
-    max-height: 350px;
+    max-height: 500px;
     object-fit: cover;
     display: block;
     margin: 0;
@@ -133,7 +137,7 @@ header {
 }
   .hero-text {
 position: absolute;
-bottom: 30px;
+bottom: 150px;
 left: 50%;
 transform: translateX(-90%);
 width: 100%;
