@@ -56,15 +56,14 @@ width: 100%;
 
  /* Dropdown Button: Creators */
  .dropbtn-creators {
-  background-color: #ec2ead;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
+  
 }
 
 /*Dropdown Button*/
-
+.creators{
+  font-size: 15px;
+  color: rgb(245, 85, 149);
+}
 .dropdown {
   position: relative;
   display: inline-block;
@@ -93,6 +92,7 @@ button:active{
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  font-size: 20px;
 }
 
 
@@ -279,8 +279,17 @@ scroll-behavior: smooth;
   text-align: center;
   color: pink;
 }
-  
 
+.store-names h3 a {
+    text-decoration: none;
+    color: #e22094;
+    font-size: 23px;
+  }
+  .store-names h3 a:hover {
+    text-decoration: underline;
+  }
+
+  
   /*Modal*/
 .modal {
   position: fixed;
