@@ -263,12 +263,12 @@ const getProductsByPageName = (pageName) => {
     return products.filter((product) =>
       product.category.includes("Wandering Maker")
     );
-  } else if (pageName === "geekaabi.html") {
-    return products.filter((product) => product.category.includes("Geekaabi"));
   } else {
     return products;
   }
 };
+
+displayProducts(getProductsByPageName(page));
 
 //Function for products
 function displayProducts(items) {
@@ -333,5 +333,3 @@ searchInput.addEventListener("input", (e) => {
   );
   displayProducts(filteredProducts);
 });
-
-displayProducts(getProductsByPageName(page));

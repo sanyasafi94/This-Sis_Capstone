@@ -355,6 +355,39 @@ scroll-behavior: smooth;
   margin: .5rem 0;
 }
 
+/*Store Pages*/
+
+.logo-page {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin: 40px, 20px;
+}
+
+.logo-page-search {
+  width: 100%;
+  max-width: 450px;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  outline: none;
+}
+
+.store-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); 
+  gap: 30px;           
+  margin: 40px auto;    
+  padding: 0 40px;      
+  max-width: 1200px;    
+  overflow-x: visible; 
+  flex-wrap: unset;
+}
+
+
 /*Footer*/
   
   footer {

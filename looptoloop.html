@@ -38,18 +38,16 @@
     </div>
 
     <main>
-      <div class="row">
-        <div class="column1">
-          <img src="images/looplogo.png" alt="Loop to Loop Logo" width="200" />
-        </div>
-        <input type="text" id="searchInput" placeholder="Search products..." />
-        <div class="column2">
-          <section id="featured">
-            <div id="productGrid" class="product-grid"></div>
+      <div class="logo-page">
+          <img src="images/looplogo.png" alt="Loop to Loop Logo" width="300" class="logo-image" />
+        <input class="logo-page-search" id="searchInput" placeholder="Search products..." />
+      </div>   
+        <section id="featured">
+            <div id="productGrid" class="product-grid store-grid"></div>
             <img id="productImg" src="images/" alt="" />
             <p id="noResults" class="hidden"></p>
           </section>
-        </div>
+       
       </div>
 
       <!-- Modal structure -->
@@ -71,7 +69,7 @@
         </div>
       </div>
     </main>
-    
+
     <script src="script.js"></script>
   </body>
 
