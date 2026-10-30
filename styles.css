@@ -1,6 +1,6 @@
 *{
-    font-family: 'Alexandria', sans-serif;
-    box-sizing: border-box;
+  font-family: "alexandria", sans-serif;
+  box-sizing: border-box;
 }
 body{
   margin: 0;
@@ -116,6 +116,9 @@ header {
   padding: 0;
   line-height: 0;
 }
+.hero-main {
+  font-family: ;
+}
 .hero-image {
     width: 100%;
     max-height: 350px;
@@ -148,14 +151,23 @@ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
 
 /*Search Container*/
-.search-container{
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    width: 100%;             
-    margin: 20px 0;
-   padding: 0 20px;
+.search-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  width: 100%;             
+  margin: 20px 0;
+  padding: 0 20px;
+}
 
+.search-container input {
+  width: 100%;
+  max-width: 600px;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  outline: none;
 }
 
 input::placeholder {
@@ -167,7 +179,7 @@ input::placeholder {
    .icon-nav {
     display: flex;
     justify-content: center;
-    gap:  40px;
+    gap:  150px;
     margin: 20px 0;
     overflow-x: auto;
     padding: 10px;                 
