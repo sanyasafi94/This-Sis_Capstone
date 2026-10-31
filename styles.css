@@ -243,7 +243,7 @@ scroll-behavior: smooth;
 }
 
 .product-card .price {
-  color: #e22094;
+  color:  rgb(227, 28, 121);
   font-weight: bold;
   margin-bottom: 12px;
 }
@@ -258,7 +258,7 @@ scroll-behavior: smooth;
 }
 
 .product-card button:hover {
-  background-color: #e22094;
+  background-color: rgb(227, 28, 121);
 }
  
 
@@ -284,7 +284,7 @@ scroll-behavior: smooth;
 
 .store-names h3 a {
     text-decoration: none;
-    color: #e22094;
+    color:rgb(227, 28, 121);
     font-size: 23px;
   }
   .store-names h3 a:hover {
@@ -355,7 +355,7 @@ color: #151f6d;
 .modal-price {
   font-weight: bold;
   font-size: 1.3rem;
-  color: #ec2ead;
+  color: rgb(227, 28, 121);
   margin: .5rem 0;
 }
 
@@ -403,7 +403,7 @@ margin: 40px, 20px;
 
 .contact-form-container h2 {
   font-family: 'Alexandria', sans-serif;
-  color: #e22094;
+  color: rgb(227, 28, 121);
   text-align: center;
   margin-bottom: 30px;
   font-size: 28px;
@@ -425,7 +425,7 @@ margin: 40px, 20px;
 /* Submit Button */
 .contact-form-container .submit-button {
   width: 100%;
-  background-color: #e22094;
+  background-color: rgb(227, 28, 121);
   color: white;
   border: none;
   padding: 14px;
@@ -439,8 +439,8 @@ margin: 40px, 20px;
 }
 
 .contact-form-container .submit-button:hover {
-  background-color: #cb1983;
-  box-shadow: 0 4px 12px rgba(226, 32, 148, 0.3);
+  background-color: rgb(227, 28, 121);
+  box-shadow: 0 4px 12px rgba(243, 125, 196, 0.3);
 }
 
 
