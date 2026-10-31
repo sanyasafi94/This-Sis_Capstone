@@ -425,6 +425,43 @@ margin: 40px, 20px;
   overflow-x: visible; 
   flex-wrap: unset;
 }
+/*FAQs*/
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 24px;
+  line-height: 1.5;
+}
+
+.faq-header {
+  color: rgb(227, 28, 121);
+  margin-top: 80px;
+  margin-bottom: 30px;
+  font-size: 36px;
+  text-align: center;
+  background-color: rgb(247, 211, 223);
+}
+
+.header-text {
+  text-align: center;
+  font-weight: 700;
+  color: #151f6d;
+  margin-bottom: 30px;
+}
+
+main h3 {
+  color: rgb(227, 28, 121);
+}
+
+.questions p {
+  color: #151f6d;
+  margin-bottom: 30px;
+  ;
+}
+
+
+
+
 /*Contact Form*/
 .contact-form-container {
   max-width: 600px;
