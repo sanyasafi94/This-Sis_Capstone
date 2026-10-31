@@ -99,6 +99,8 @@ const products = [
     category: "Stationary, Roo's Treasure Shop, labels, spice jars, ",
     price: "$20",
     image: "images/spicejar.png",
+    description:
+      "Using Permanent Vinyl, these spice jar labels are the perfect way to customize your spice jars... but with a spin! If you are bilingual, you can add the name of the spice in English as well as any language of your choice!",
   },
   {
     id: 13,
@@ -106,6 +108,8 @@ const products = [
     category: "Stationary, Roo's Treasure Shop, greeting cards, ramadan",
     price: "$20",
     image: "images/greetingcard.png",
+    description:
+      "Personally designed, this Ramadan card set is perfect to send or give your loved ones this Ramadan. Made with smooth cardstock, with a foil vinyl on top in an intricate design, these cards are an elegant and beautiful way to send love and/or well wishes to those celebrating Ramadan, both personal and professional.",
   },
   {
     id: 14,
@@ -113,6 +117,8 @@ const products = [
     category: "Stationary, Roo's Treasure Shop, Bookmark, book",
     price: "$15",
     image: "images/bookmarks.png",
+    description:
+      "These holographic bookmarks are the perfect companion for every book lover. Featuring a soft pastel book stack design and a dreamy iridescent finish, they catch the light beautifully while keeping your place in style.",
   },
   {
     id: 15,
@@ -120,6 +126,8 @@ const products = [
     category: "Stationary, Roo's Treasure Shop, magnet, matcha, pink",
     price: "$5",
     image: "images/matcha.png",
+    description:
+      "Celebrate your love for matcha with this adorable “All I Need Is Matcha” design featuring a pastel matcha drink, sweet strawberries, and a soft aesthetic vibe. Perfect for decorating your laptop, water bottle, Kindle, planner, or fridge!",
   },
   {
     id: 16,
@@ -127,6 +135,8 @@ const products = [
     category: "Stationary, Roo's Treasure Shop, cup, glass, muslim",
     price: "$19",
     image: "images/jarcup.png",
+    description:
+      "Start every sip with intention. This beautifully designed can glass features the word Bismillah surrounded by delicate floral details, making it both a functional piece and a meaningful addition to your daily routine.",
   },
 
   //The Wandering Maker
