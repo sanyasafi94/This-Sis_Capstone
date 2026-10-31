@@ -36,10 +36,16 @@ width: 100%;
   padding-left: 40px;
   padding-right: 20px;
  }
+
  .topnav a {
   text-decoration: none;
   color: #151f6d;
   font-size: 15px;
+ }
+
+ .topnav a:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
  }
 
  .center{
@@ -365,6 +371,27 @@ color: #151f6d;
   font-size: 1.3rem;
   color: rgb(227, 28, 121);
   margin: .5rem 0;
+}
+
+.contact-btn {
+  background-color: #dc582a;
+  color: white;
+  border: none;
+  padding: 6px 23px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.contact-btn:hover {
+  background-color: #e6987b;
+  color: #151f6d;
+  border: none;
+  padding: 6px 23px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none; 
+  box-shadow: 0 4px 12px lightgray;
 }
 
 /*Store Pages*/
