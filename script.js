@@ -136,6 +136,8 @@ const products = [
     category: "Wandering Maker, keychain, bedazzled, pink, purple",
     price: "$6",
     image: "images/catkeychains.jpeg",
+    description:
+      "Acrylic Keychain with different colored background. With silver, gold, and other color diamonds that are in the shape of a cat doing different position.",
   },
   {
     id: 18,
@@ -143,6 +145,7 @@ const products = [
     category: "Wandering Maker, rose, pin, red, flower",
     price: "$3 each",
     image: "images/rosepin.jpeg",
+    description: "Red rose pin that is covered in gold glitter.",
   },
   {
     id: 19,
@@ -150,6 +153,8 @@ const products = [
     category: "Wandering Maker, earring, jewelry, fruit, tops",
     price: "$10",
     image: "images/fruitset.jpeg",
+    description:
+      "Fruit earring tops that are Apple, Banana, Strawberry, Cherry, and Pineapple.",
   },
   {
     id: 20,
@@ -157,6 +162,8 @@ const products = [
     category: "Wandering Maker, magent, flower, frame, vintage",
     price: "$5",
     image: "images/frames.jpeg",
+    description:
+      "Pressed Flower Vintage Frame magnets with different types of colored frame, such as gold, silver, bronze, and copper. ",
   },
   {
     id: 21,
@@ -164,6 +171,8 @@ const products = [
     category: "Wandering Maker, bedazzled, keychain, intial, letter ",
     price: "$8",
     image: "images/letterkeychains.jpg",
+    description:
+      "Acrylic Keychain with different color backgrounds. Has either gold, silver or other color diamonds that are in the shape of a Letter.",
   },
 ];
 
