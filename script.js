@@ -52,6 +52,8 @@ const products = [
     category: "Bracelet, Stardrip, beads, sparkle, jewelry, pink",
     price: "$15",
     image: "images/pinkpeony.jpg",
+    description:
+      "An elegant pink bracelet made with mixed material beads and plastic beads with floral detailing.",
   },
   {
     id: 8,
@@ -59,6 +61,8 @@ const products = [
     category: "Bracelet, Stardrip, beads, sparkle, jewelry, clear",
     price: "$15",
     image: "images/iridescent.jpg",
+    description:
+      "An iridescent bracelet made of glass beads and gold plastic beads that adds sparkle to every outfit.",
   },
   {
     id: 9,
@@ -66,6 +70,8 @@ const products = [
     category: "Bracelet, Stardrip, beads, sparkle, jewelry, clear",
     price: "$16",
     image: "images/bubble.jpg",
+    description:
+      "A whimsical iridescent bracelet inspired by floating bubbles.",
   },
 
   {
@@ -74,6 +80,8 @@ const products = [
     category: "Bracelet, Stardrip, beads, sparkle, jewelry, blue, anklet",
     price: "$20",
     image: "images/summersky.jpg",
+    description:
+      "A charming sky blue and iridescent piece that can be worn as either a bracelet or anklet.",
   },
   {
     id: 11,
@@ -81,6 +89,8 @@ const products = [
     category: "Bracelet, Stardrip, beads, sparkle, jewelry, multi color",
     price: "$20",
     image: "images/dragonfly.jpg",
+    description:
+      "An iridescent teal bracelet of frosted glass beads inspired by dragonflies darting over water.",
   },
   //Roo's Treasure Shop
   {
