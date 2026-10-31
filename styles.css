@@ -427,7 +427,7 @@ margin: 40px, 20px;
   flex-wrap: unset;
 }
 /*FAQs*/
-main {
+.faq-questions {
   max-width: 900px;
   margin: 40px auto;
   padding: 0 24px;
