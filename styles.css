@@ -483,6 +483,15 @@ main h3 {
   font-weight: 600;
 }
 
+.sister-pic{
+  float: left;
+  margin-right: 30px;
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
 
 /*Contact Form*/
 .contact-form-container {
