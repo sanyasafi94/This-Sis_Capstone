@@ -107,7 +107,7 @@ const products = [
     name: "Ramadan Greeting Cards (Set of 3)",
     category: "Stationary, Roo's Treasure Shop, greeting cards, ramadan",
     price: "$20",
-    image: "images/greetingcard.png",
+    image: "images/greetingcard.jpg",
     description:
       "Personally designed, this Ramadan card set is perfect to send or give your loved ones this Ramadan. Made with smooth cardstock, with a foil vinyl on top in an intricate design, these cards are an elegant and beautiful way to send love and/or well wishes to those celebrating Ramadan, both personal and professional.",
   },
