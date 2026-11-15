@@ -299,7 +299,7 @@ const getProductsByPageName = (pageName) => {
 
 //Function for products
 function displayProducts(items) {
-  productGrid.innerHTML = " ";
+  productGrid.innerHTML = "";
   if (items.length === 0) {
     noResults.classList.remove("hidden");
     return;
