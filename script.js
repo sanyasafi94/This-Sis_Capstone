@@ -6,7 +6,7 @@ const products = [
     name: "Rose Cardigan",
     category: "Wearable, crochet, rose, Loop to Loop",
     price: "$130 (Price adjusted for size)",
-    image: "images/bluepinkrosesweater.jpeg",
+    image: "images/bluepinkrosesweater.jpg",
     description:
       "This is a beautiful cardigan that showcases roses all over the front and back. Made with cotton yarn, it has a gorgeous and clean look. This is the perfect addition to your wardrobe especially if you love flowers.",
   },
@@ -15,35 +15,35 @@ const products = [
     name: "Cup Cozy",
     category: "Home, Cup, Cozy, Winter, Loop to Loop, crochet",
     price: "$5",
-    image: "images/greencupcozy.jpeg",
+    image: "images/greencupcozy.jpg",
   },
   {
     id: 3,
     name: "Large Tote Bag",
     category: "Bag, tote, brown, Loop to Loop, crochet",
     price: "$45",
-    image: "images/browncrochettote.jpeg",
+    image: "images/browncrochettote.jpg",
   },
   {
     id: 4,
     name: "3pc Vase & Trinket tray Set",
     category: "Ceramic, Eco Resin, Home, Brown, Loop to Loop",
     price: "$30",
-    image: "images/brownecoresin.jpeg",
+    image: "images/brownecoresin.jpg",
   },
   {
     id: 5,
     name: "Moon Keychain",
     category: "Keychain, crochet,  Loop to Loop, moon, yellow, small",
     price: "$5",
-    image: "images/moonkeychain.jpeg",
+    image: "images/moonkeychain.jpg",
   },
   {
     id: 6,
     name: "Rose Bouquet Keychain",
     category: "Keychain, Loop to Loop, rose, flower, medium, crochet",
     price: "$10",
-    image: "images/rosebouquetkeychain.jpeg",
+    image: "images/rosebouquetkeychain.jpg",
   },
   //Stardrip Couture Products
   {
@@ -98,7 +98,7 @@ const products = [
     name: "Spice Jar Labels (set of 20)",
     category: "Stationary, Roo's Treasure Shop, labels, spice jars, ",
     price: "$20",
-    image: "images/spicejar.png",
+    image: "images/spicejar.jpg",
     description:
       "Using Permanent Vinyl, these spice jar labels are the perfect way to customize your spice jars... but with a spin! If you are bilingual, you can add the name of the spice in English as well as any language of your choice!",
   },
@@ -116,7 +116,7 @@ const products = [
     name: "Booked & Busy Bookmart Set (3pc)",
     category: "Stationary, Roo's Treasure Shop, Bookmark, book",
     price: "$15",
-    image: "images/bookmarks.png",
+    image: "images/bookmarks.jpg",
     description:
       "These holographic bookmarks are the perfect companion for every book lover. Featuring a soft pastel book stack design and a dreamy iridescent finish, they catch the light beautifully while keeping your place in style.",
   },
@@ -125,7 +125,7 @@ const products = [
     name: "All I Need is Matcha Magnet",
     category: "Stationary, Roo's Treasure Shop, magnet, matcha, pink",
     price: "$5",
-    image: "images/matcha.png",
+    image: "images/matcha.jpg",
     description:
       "Celebrate your love for matcha with this adorable “All I Need Is Matcha” design featuring a pastel matcha drink, sweet strawberries, and a soft aesthetic vibe. Perfect for decorating your laptop, water bottle, Kindle, planner, or fridge!",
   },
@@ -134,7 +134,7 @@ const products = [
     name: "Bismillah Floral Can Glass Set",
     category: "Stationary, Roo's Treasure Shop, cup, glass, muslim",
     price: "$19",
-    image: "images/jarcup.png",
+    image: "images/jarcup.jpg",
     description:
       "Start every sip with intention. This beautifully designed can glass features the word Bismillah surrounded by delicate floral details, making it both a functional piece and a meaningful addition to your daily routine.",
   },
@@ -145,7 +145,7 @@ const products = [
     name: "Bedazzled Cat Keychain",
     category: "Wandering Maker, keychain, bedazzled, pink, purple",
     price: "$6",
-    image: "images/catkeychains.jpeg",
+    image: "images/catkeychains.jpg",
     description:
       "Acrylic Keychain with different colored background. With silver, gold, and other color diamonds that are in the shape of a cat doing different position.",
   },
@@ -154,7 +154,7 @@ const products = [
     name: "Rose Pin",
     category: "Wandering Maker, rose, pin, red, flower",
     price: "$3 each",
-    image: "images/rosepin.jpeg",
+    image: "images/rosepin.jpg",
     description: "Red rose pin that is covered in gold glitter.",
   },
   {
@@ -162,7 +162,7 @@ const products = [
     name: "Fruit Earrings Set",
     category: "Wandering Maker, earring, jewelry, fruit, tops",
     price: "$10",
-    image: "images/fruitset.jpeg",
+    image: "images/fruitset.jpg",
     description:
       "Fruit earring tops that are Apple, Banana, Strawberry, Cherry, and Pineapple.",
   },
@@ -171,7 +171,7 @@ const products = [
     name: "Pressed Flower Magnet Set",
     category: "Wandering Maker, magent, flower, frame, vintage",
     price: "$5",
-    image: "images/frames.jpeg",
+    image: "images/frames.jpg",
     description:
       "Pressed Flower Vintage Frame magnets with different types of colored frame, such as gold, silver, bronze, and copper. ",
   },
