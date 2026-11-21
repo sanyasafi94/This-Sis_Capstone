@@ -256,24 +256,26 @@ scroll-behavior: smooth;
 
 
 .product-card h3 {
-  font-size: 1.1rem;
+  font-size: 20px;
   margin-bottom: 8px;
-  color: #151f6d;
+  color:  rgb(227, 28, 121);
 }
 
 .product-card .price {
-  color:  rgb(227, 28, 121);
+  color:  #151f6d;
   font-weight: bold;
   margin-bottom: 12px;
+  font-size: 15px;
 }
 
 .product-card button {
-  background-color: #dc582a;
+  background-color:#151f6d;
   color: white;
   border: none;
   padding: 6px 23px;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 15px;
 }
 
 .product-card button:hover {
@@ -374,7 +376,7 @@ color: #151f6d;
 .modal-price {
   font-weight: bold;
   font-size: 1.3rem;
-  color: rgb(227, 28, 121);
+  color: #151f6d;
   margin: .5rem 0;
 }
 
