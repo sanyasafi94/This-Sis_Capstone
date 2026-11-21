@@ -156,16 +156,16 @@ padding-left: 60px;
 }
 
 .hero-text {
-position:relative;
-bottom: 320px;
-left: 50%;
-transform: translateX(-60%);
+position:absolute;
+bottom: 200px;
+left: 60%;
+transform: translateX(-70%);
 width: 100%;
-max-width: 800px;
+max-width: 1200px;
 text-align: center;
 color: white;
 background-color: rgba(227, 28, 121, 0.817);
-padding: 20px;
+padding: 0 20px;
 border-radius: 50px;
 font-size: 1.5rem;
 letter-spacing: 1px;
