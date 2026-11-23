@@ -643,16 +643,18 @@ footer a:hover {
   }
 
   .hero-text {
-    bottom: 40px;
-    left: 25%;
+    bottom: 90px;
+    left: 50%;
     transform: translateX(-50%);
-    width: calc(100%-32px);
+    width: calc(100%-52px);
     max-width: none;
+    padding: 0;
+    margin: 0;
     
   }
 
   .hero-main{
-    font-size: 45px;
+    font-size: 35px;
   }
 
   .topnav {
@@ -660,6 +662,7 @@ footer a:hover {
     grid-template-columns: 1fr;
     gap: 10px;
     padding: 12px 10px;
+    
   }
 
   .topnav-left,
@@ -668,18 +671,22 @@ footer a:hover {
     justify-content: center;
     gap: 12px;
     padding: 0 10px;
+    font-size: 12px ;
   }
 
   .mainlogo {
-    width: 100px;
+    width: 150px;
   }
 
   .icon-nav {
     display: flex;
     justify-content: center;
-    gap: 27px;
+    gap: 16px;
     margin: 16px 0;
-    padding: 10px 16px;
+    padding: 9px 10px;
+  }
 
+  footer a {
+    font-size: 15px;
   }
 }
