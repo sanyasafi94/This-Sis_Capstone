@@ -588,7 +588,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 768px) {
   body {
     min-width: 0;
     overflow-x: hidden;
@@ -624,6 +624,54 @@ footer a:hover {
 
   .mainlogo {
     width: 190px;
+  }
+
+  .icon-nav {
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+    margin: 16px 0;
+    padding: 10px 16px;
+
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  body {
+    min-width: 0;
+    overflow-x: hidden;
+  }
+
+  .hero-text {
+    bottom: 40px;
+    left: 25%;
+    transform: translateX(-50%);
+    width: calc(100%-32px);
+    max-width: none;
+    
+  }
+
+  .hero-main{
+    font-size: 45px;
+  }
+
+  .topnav {
+    justify-content: center;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 12px 10px;
+  }
+
+  .topnav-left,
+  .topnav-right {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 0 10px;
+  }
+
+  .mainlogo {
+    width: 100px;
   }
 
   .icon-nav {
