@@ -603,6 +603,25 @@ footer a:hover {
     font-size: 15px;
   }
 
+  .topnav {
+    justify-content: center;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 12px 10px;
+  }
+
+  .topnav-left,
+  .topnav-right {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 0 10px;
+  }
+
+  .mainlogo {
+    width: 190px;
+  }
+
   .icon-nav {
     display: flex;
     justify-content: center;
