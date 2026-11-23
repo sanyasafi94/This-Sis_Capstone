@@ -600,7 +600,11 @@ footer a:hover {
     transform: translateX(-50%);
     width: calc(100%-32px);
     max-width: none;
-    font-size: 15px;
+    
+  }
+
+  .hero-main{
+    font-size: 45px;
   }
 
   .topnav {
